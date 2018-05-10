@@ -2,10 +2,82 @@
 <html>
 <head>
 	<title>Hola css</title>
+	<style type="text/css">
+		body{
+			font-family: Arial,sans-serif;
+			font-size:18px;
+			background: #000 url("lu.jpg") repeat;
+		}
+		h1{
+		    color: red;
+		    /*display: inline;*/
+
+		}
+		.texto-centrado{
+			text-align: center;
+
+		}
+		#caja1{
+			background: black;
+			color: white;
+			width: 300px;
+			padding-top: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			margin: 20px;
+			border-width: 3px;
+			border-color: pink;
+			border-style: solid;
+			float: left;
+			background: pink url("e.jpg") repeat;
+		}
+		#caja2{
+			background: black;
+			color:white;
+			width: 300px;
+			padding:20px;
+			border: 3px ,solid:red;
+			float: left;
+
+		}
+		.clr{
+			clear: both;
+		}
+		.Mi-lista{
+			list-style: none;
+			padding: 0px;
+			line-height: 2.2em;
+
+		}
+		li{
+			border-bottom: 2.2em solid #666;
+		}
+	</style>
 </head>
 <body>
 	<h1>Hola css</h1>
 	<h2>Presentacion</h2>
+	<div><h1 class="texto-centrado">Bienvenidos</h1>
 
+		<p class="texto-centrado"> Esto es un parrafo </p>
+		<p>Esto es otro parrafo</p>
+
+
+			</div>
+	<div id="caja1">ESTA ES LA CAJA 1</div>
+	<div id="caja2">ESTA ES LA CAJA 2</div>
+	<div class="clr"></div>
+		<ul class="Mi-lista">
+
+			<li>Lunes</li>
+			<li>Lunes</li>
+			<li>Lunes</li>
+			<li>Lunes</li>
+			<li>Lunes</li>
+			<li>Lunes</li>
+			<li>Lunes</li>
+
+		</ul>
 </body>
 </html>
